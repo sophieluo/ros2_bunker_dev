@@ -1,0 +1,8 @@
+{
+  "package_name": "bunker_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_bunker_dev/src/bunker_ros2/bunker_msgs:msg/BunkerActuatorState.msg",
+    "/root/ros2_bunker_dev/src/bunker_ros2/bunker_msgs:msg/BunkerRCState.msg",
+    "/root/ros2_bunker_dev/src/bunker_ros2/bunker_msgs:msg/BunkerStatus.msg"
+  ]
+}

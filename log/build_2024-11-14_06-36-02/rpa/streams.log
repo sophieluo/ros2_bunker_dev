@@ -1,0 +1,21 @@
+[0.354s] Invoking command in '/root/ros2_bunker_dev/src/rpa': PYTHONPATH=/root/ros2_bunker_dev/build/rpa/prefix_override:/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpa build --build-base /root/ros2_bunker_dev/build/rpa/build install --record /root/ros2_bunker_dev/build/rpa/install.log --single-version-externally-managed
+[0.453s] running egg_info
+[0.455s] writing ../../build/rpa/rpa.egg-info/PKG-INFO
+[0.456s] writing dependency_links to ../../build/rpa/rpa.egg-info/dependency_links.txt
+[0.456s] writing entry points to ../../build/rpa/rpa.egg-info/entry_points.txt
+[0.456s] writing requirements to ../../build/rpa/rpa.egg-info/requires.txt
+[0.456s] writing top-level names to ../../build/rpa/rpa.egg-info/top_level.txt
+[0.472s] reading manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+[0.473s] writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+[0.473s] running build
+[0.473s] running build_py
+[0.474s] running install
+[0.475s] running install_lib
+[0.475s] running install_data
+[0.476s] running install_egg_info
+[0.476s] removing '/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info' (and everything under it)
+[0.477s] Copying ../../build/rpa/rpa.egg-info to /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info
+[0.485s] running install_scripts
+[0.493s] Installing slam_processor script to /root/ros2_bunker_dev/install/rpa/lib/rpa
+[0.493s] writing list of installed files to '/root/ros2_bunker_dev/build/rpa/install.log'
+[0.524s] Invoked command in '/root/ros2_bunker_dev/src/rpa' returned '0': PYTHONPATH=/root/ros2_bunker_dev/build/rpa/prefix_override:/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpa build --build-base /root/ros2_bunker_dev/build/rpa/build install --record /root/ros2_bunker_dev/build/rpa/install.log --single-version-externally-managed

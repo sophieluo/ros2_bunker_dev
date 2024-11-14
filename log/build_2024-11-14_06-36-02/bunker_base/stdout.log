@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target bunker_base_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_ros.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable bunker_base_node[0m
+[100%] Built target bunker_base_node
+-- Install configuration: ""
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/lib/bunker_base/bunker_base_node
+-- Set runtime path of "/root/ros2_bunker_dev/install/bunker_base/lib/bunker_base/bunker_base_node" to ""
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base//launch
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base//launch/bunker_base.launch.py
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/package_run_dependencies/bunker_base
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/parent_prefix_path/bunker_base
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/path.sh
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/path.dsv
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.bash
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.sh
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.zsh
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.dsv
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/package.dsv
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/packages/bunker_base
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig.cmake
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig-version.cmake
+-- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/package.xml

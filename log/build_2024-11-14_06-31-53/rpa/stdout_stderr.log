@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/rpa/rpa.egg-info
+writing ../../build/rpa/rpa.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpa/rpa.egg-info/dependency_links.txt
+writing entry points to ../../build/rpa/rpa.egg-info/entry_points.txt
+writing requirements to ../../build/rpa/rpa.egg-info/requires.txt
+writing top-level names to ../../build/rpa/rpa.egg-info/top_level.txt
+writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+reading manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_bunker_dev/build/rpa/build
+creating /root/ros2_bunker_dev/build/rpa/build/lib
+creating /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+copying rpa/__init__.py -> /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+copying rpa/slam_processor.py -> /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+running install
+running install_lib
+creating /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+copying /root/ros2_bunker_dev/build/rpa/build/lib/rpa/__init__.py -> /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+copying /root/ros2_bunker_dev/build/rpa/build/lib/rpa/slam_processor.py -> /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+byte-compiling /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa/slam_processor.py to slam_processor.cpython-38.pyc
+running install_data
+creating /root/ros2_bunker_dev/install/rpa/share/ament_index
+creating /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index
+creating /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index/packages
+copying resource/rpa -> /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_bunker_dev/install/rpa/share/rpa
+creating /root/ros2_bunker_dev/install/rpa/share/rpa/launch
+copying launch/test_slam.launch.py -> /root/ros2_bunker_dev/install/rpa/share/rpa/launch
+running install_egg_info
+Copying ../../build/rpa/rpa.egg-info to /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info
+running install_scripts
+Installing slam_processor script to /root/ros2_bunker_dev/install/rpa/lib/rpa
+writing list of installed files to '/root/ros2_bunker_dev/build/rpa/install.log'

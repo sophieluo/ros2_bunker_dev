@@ -1,0 +1,39 @@
+[0.351s] Invoking command in '/root/ros2_bunker_dev/src/rpa': PYTHONPATH=/root/ros2_bunker_dev/build/rpa/prefix_override:/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpa build --build-base /root/ros2_bunker_dev/build/rpa/build install --record /root/ros2_bunker_dev/build/rpa/install.log --single-version-externally-managed
+[0.445s] running egg_info
+[0.445s] creating ../../build/rpa/rpa.egg-info
+[0.446s] writing ../../build/rpa/rpa.egg-info/PKG-INFO
+[0.447s] writing dependency_links to ../../build/rpa/rpa.egg-info/dependency_links.txt
+[0.448s] writing entry points to ../../build/rpa/rpa.egg-info/entry_points.txt
+[0.449s] writing requirements to ../../build/rpa/rpa.egg-info/requires.txt
+[0.451s] writing top-level names to ../../build/rpa/rpa.egg-info/top_level.txt
+[0.453s] writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+[0.474s] reading manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'
+[0.482s] running build
+[0.559s] running build_py
+[0.565s] creating /root/ros2_bunker_dev/build/rpa/build
+[0.566s] creating /root/ros2_bunker_dev/build/rpa/build/lib
+[0.567s] creating /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+[0.570s] copying rpa/__init__.py -> /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+[0.592s] copying rpa/slam_processor.py -> /root/ros2_bunker_dev/build/rpa/build/lib/rpa
+[0.597s] running install
+[0.599s] running install_lib
+[0.600s] creating /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+[0.601s] copying /root/ros2_bunker_dev/build/rpa/build/lib/rpa/__init__.py -> /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+[0.605s] copying /root/ros2_bunker_dev/build/rpa/build/lib/rpa/slam_processor.py -> /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa
+[0.610s] byte-compiling /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa/__init__.py to __init__.cpython-38.pyc
+[0.615s] byte-compiling /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa/slam_processor.py to slam_processor.cpython-38.pyc
+[0.618s] running install_data
+[0.619s] creating /root/ros2_bunker_dev/install/rpa/share/ament_index
+[0.620s] creating /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index
+[0.620s] creating /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index/packages
+[0.620s] copying resource/rpa -> /root/ros2_bunker_dev/install/rpa/share/ament_index/resource_index/packages
+[0.621s] copying package.xml -> /root/ros2_bunker_dev/install/rpa/share/rpa
+[0.623s] creating /root/ros2_bunker_dev/install/rpa/share/rpa/launch
+[0.623s] copying launch/test_slam.launch.py -> /root/ros2_bunker_dev/install/rpa/share/rpa/launch
+[0.625s] running install_egg_info
+[0.626s] Copying ../../build/rpa/rpa.egg-info to /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info
+[0.639s] running install_scripts
+[0.651s] Installing slam_processor script to /root/ros2_bunker_dev/install/rpa/lib/rpa
+[0.652s] writing list of installed files to '/root/ros2_bunker_dev/build/rpa/install.log'
+[0.679s] Invoked command in '/root/ros2_bunker_dev/src/rpa' returned '0': PYTHONPATH=/root/ros2_bunker_dev/build/rpa/prefix_override:/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpa build --build-base /root/ros2_bunker_dev/build/rpa/build install --record /root/ros2_bunker_dev/build/rpa/install.log --single-version-externally-managed

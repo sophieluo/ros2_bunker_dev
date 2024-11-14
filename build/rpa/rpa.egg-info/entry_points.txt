@@ -1,0 +1,3 @@
+[console_scripts]
+slam_processor = rpa.slam_processor:main
+

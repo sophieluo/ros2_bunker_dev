@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_bunker_dev/build/custom_bunker_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_bunker_dev/build/custom_bunker_controller -- -j8 -l8
+Invoked command in '/root/ros2_bunker_dev/build/custom_bunker_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_bunker_dev/build/custom_bunker_controller -- -j8 -l8
+Invoking command in '/root/ros2_bunker_dev/build/custom_bunker_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_bunker_dev/build/custom_bunker_controller
+Invoked command in '/root/ros2_bunker_dev/build/custom_bunker_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_bunker_dev/build/custom_bunker_controller

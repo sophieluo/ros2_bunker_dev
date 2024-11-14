@@ -1,0 +1,138 @@
+[0.043s] Invoking command in '/root/ros2_bunker_dev/build/ugv_sdk': /usr/bin/cmake /root/ros2_bunker_dev/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_bunker_dev/install/ugv_sdk
+[0.123s] -- The C compiler identification is GNU 9.4.0
+[0.184s] -- The CXX compiler identification is GNU 9.4.0
+[0.189s] -- Check for working C compiler: /usr/bin/cc
+[0.266s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.267s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.485s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.731s] -- Detecting CXX compile features
+[0.732s] -- Detecting CXX compile features - done
+[0.736s] -- Build package with cmake
+[0.736s] -- Setting build type to 'Release' as none was specified.
+[0.736s] -- Tests will not be built
+[0.743s] -- Looking for pthread.h
+[0.816s] -- Looking for pthread.h - found
+[0.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.877s] -- Looking for pthread_create in pthreads
+[0.923s] -- Looking for pthread_create in pthreads - not found
+[0.923s] -- Looking for pthread_create in pthread
+[0.977s] -- Looking for pthread_create in pthread - found
+[0.978s] -- Found Threads: TRUE  
+[0.991s] -- Project will be installed to /root/ros2_bunker_dev/install/ugv_sdk with 'make install'
+[0.992s] --  - To install LIB components to /root/ros2_bunker_dev/install/ugv_sdk/lib
+[0.992s] --  - To install BIN components to /root/ros2_bunker_dev/install/ugv_sdk/bin
+[0.993s] --  - To install INCLUDE components to /root/ros2_bunker_dev/install/ugv_sdk/include
+[0.993s] --  - To install CMAKE components to /root/ros2_bunker_dev/install/ugv_sdk/share/cmake/ugv_sdk
+[1.021s] -- Configuring done
+[1.116s] -- Generating done
+[1.141s] CMake Warning:
+[1.141s]   Manually-specified variables were not used by the project:
+[1.141s] 
+[1.142s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.142s] 
+[1.142s] 
+[1.146s] -- Build files have been written to: /root/ros2_bunker_dev/build/ugv_sdk
+[1.148s] Invoked command in '/root/ros2_bunker_dev/build/ugv_sdk' returned '0': /usr/bin/cmake /root/ros2_bunker_dev/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_bunker_dev/install/ugv_sdk
+[1.155s] Invoking command in '/root/ros2_bunker_dev/build/ugv_sdk': /usr/bin/cmake --build /root/ros2_bunker_dev/build/ugv_sdk -- -j8 -l8
+[1.183s] [35m[1mScanning dependencies of target ugv_sdk[0m
+[1.237s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[1.238s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[1.241s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[1.253s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[1.255s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[1.256s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[1.257s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[1.263s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[5.468s] [ 32%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[6.295s] [ 35%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[6.386s] [ 39%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[7.614s] [ 42%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[7.719s] [ 42%] Built target ugv_sdk
+[7.741s] [35m[1mScanning dependencies of target demo_ranger_robot[0m
+[7.747s] [35m[1mScanning dependencies of target demo_scout_robot[0m
+[7.750s] [35m[1mScanning dependencies of target demo_hunter_robot[0m
+[7.750s] [35m[1mScanning dependencies of target demo_bunker_robot[0m
+[7.753s] [35m[1mScanning dependencies of target demo_robot_version[0m
+[7.754s] [35m[1mScanning dependencies of target demo_scout_mini_omni_robot[0m
+[7.754s] [35m[1mScanning dependencies of target demo_tracer_robot[0m
+[7.754s] [35m[1mScanning dependencies of target demo_protocol_detector[0m
+[7.804s] [ 46%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[7.826s] [ 57%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[7.828s] [ 57%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[7.829s] [ 57%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[7.841s] [ 64%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[7.844s] [ 64%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[7.846s] [ 67%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[7.856s] [ 71%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[8.199s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[8.323s] [ 75%] Built target demo_bunker_robot
+[10.403s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[10.439s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[10.482s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[10.519s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[10.547s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[10.576s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[10.604s] [100%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[10.644s] [100%] Built target demo_hunter_robot
+[10.650s] [100%] Built target demo_robot_version
+[10.654s] [100%] Built target demo_tracer_robot
+[10.673s] [100%] Built target demo_protocol_detector
+[10.680s] [100%] Built target demo_scout_robot
+[10.695s] [100%] Built target demo_scout_mini_omni_robot
+[10.698s] [100%] Built target demo_ranger_robot
+[10.709s] Invoked command in '/root/ros2_bunker_dev/build/ugv_sdk' returned '0': /usr/bin/cmake --build /root/ros2_bunker_dev/build/ugv_sdk -- -j8 -l8
+[10.750s] Invoking command in '/root/ros2_bunker_dev/build/ugv_sdk': /usr/bin/cmake --install /root/ros2_bunker_dev/build/ugv_sdk
+[10.755s] -- Install configuration: "Release"
+[10.756s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/lib/libugv_sdk.a
+[10.775s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk
+[10.776s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details
+[10.777s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface
+[10.778s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[10.780s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[10.781s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[10.783s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[10.784s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[10.786s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[10.788s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[10.789s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[10.791s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[10.792s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[10.794s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[10.795s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[10.796s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[10.797s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[10.799s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[10.800s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[10.802s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[10.804s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[10.805s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[10.807s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[10.809s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port
+[10.809s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[10.811s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[10.813s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[10.814s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[10.815s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[10.818s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[10.819s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[10.821s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/utilities
+[10.822s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[10.823s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[10.824s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[10.826s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[10.828s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[10.829s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[10.831s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[10.833s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[10.835s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[10.837s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[10.838s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[10.840s] -- Installing: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[10.845s] Invoked command in '/root/ros2_bunker_dev/build/ugv_sdk' returned '0': /usr/bin/cmake --install /root/ros2_bunker_dev/build/ugv_sdk

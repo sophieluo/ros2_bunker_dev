@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_bunker_dev/build/ugv_sdk': /usr/bin/cmake --build /root/ros2_bunker_dev/build/ugv_sdk -- -j8 -l8
+Invoked command in '/root/ros2_bunker_dev/build/ugv_sdk' returned '0': /usr/bin/cmake --build /root/ros2_bunker_dev/build/ugv_sdk -- -j8 -l8
+Invoking command in '/root/ros2_bunker_dev/build/ugv_sdk': /usr/bin/cmake --install /root/ros2_bunker_dev/build/ugv_sdk
+Invoked command in '/root/ros2_bunker_dev/build/ugv_sdk' returned '0': /usr/bin/cmake --install /root/ros2_bunker_dev/build/ugv_sdk

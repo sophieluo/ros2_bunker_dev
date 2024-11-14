@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/root/ros2_bunker_dev/build/bunker_base': AMENT_PREFIX_PATH=/root/ros2_bunker_dev/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/foxy:/root/ros2_bunker_dev/install/ugv_sdk:/root/ros2_bunker_dev/install/bunker_msgs LD_LIBRARY_PATH=/root/ros2_bunker_dev/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/ros2_bunker_dev/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_bunker_dev/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/ros2_bunker_dev/install/ugv_sdk/share /usr/bin/cmake --build /root/ros2_bunker_dev/build/bunker_base -- -j8 -l8
+[0.072s] [35m[1mScanning dependencies of target bunker_base_node[0m
+[0.279s] [ 33%] [32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_ros.cpp.o[0m
+[3.551s] [ 66%] [32m[1mLinking CXX executable bunker_base_node[0m
+[3.818s] [100%] Built target bunker_base_node
+[3.833s] Invoked command in '/root/ros2_bunker_dev/build/bunker_base' returned '0': AMENT_PREFIX_PATH=/root/ros2_bunker_dev/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/foxy:/root/ros2_bunker_dev/install/ugv_sdk:/root/ros2_bunker_dev/install/bunker_msgs LD_LIBRARY_PATH=/root/ros2_bunker_dev/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/ros2_bunker_dev/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_bunker_dev/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/ros2_bunker_dev/install/ugv_sdk/share /usr/bin/cmake --build /root/ros2_bunker_dev/build/bunker_base -- -j8 -l8
+[3.862s] Invoking command in '/root/ros2_bunker_dev/build/bunker_base': AMENT_PREFIX_PATH=/root/ros2_bunker_dev/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/foxy:/root/ros2_bunker_dev/install/ugv_sdk:/root/ros2_bunker_dev/install/bunker_msgs LD_LIBRARY_PATH=/root/ros2_bunker_dev/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/ros2_bunker_dev/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_bunker_dev/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/ros2_bunker_dev/install/ugv_sdk/share /usr/bin/cmake --install /root/ros2_bunker_dev/build/bunker_base
+[3.871s] -- Install configuration: ""
+[3.872s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/lib/bunker_base/bunker_base_node
+[3.892s] -- Set runtime path of "/root/ros2_bunker_dev/install/bunker_base/lib/bunker_base/bunker_base_node" to ""
+[3.893s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base//launch
+[3.893s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base//launch/bunker_base.launch.py
+[3.895s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/package_run_dependencies/bunker_base
+[3.896s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/parent_prefix_path/bunker_base
+[3.898s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/ament_prefix_path.sh
+[3.899s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/ament_prefix_path.dsv
+[3.901s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/path.sh
+[3.902s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/environment/path.dsv
+[3.903s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.bash
+[3.904s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.sh
+[3.906s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.zsh
+[3.907s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/local_setup.dsv
+[3.909s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/package.dsv
+[3.910s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/ament_index/resource_index/packages/bunker_base
+[3.911s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig.cmake
+[3.912s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig-version.cmake
+[3.914s] -- Installing: /root/ros2_bunker_dev/install/bunker_base/share/bunker_base/package.xml
+[3.918s] Invoked command in '/root/ros2_bunker_dev/build/bunker_base' returned '0': AMENT_PREFIX_PATH=/root/ros2_bunker_dev/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/foxy:/root/ros2_bunker_dev/install/ugv_sdk:/root/ros2_bunker_dev/install/bunker_msgs LD_LIBRARY_PATH=/root/ros2_bunker_dev/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/ros2_bunker_dev/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_bunker_dev/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/ros2_bunker_dev/install/ugv_sdk/share /usr/bin/cmake --install /root/ros2_bunker_dev/build/bunker_base

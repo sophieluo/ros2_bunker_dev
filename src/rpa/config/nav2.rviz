@@ -1,0 +1,20 @@
+# src/rpa/config/nav2.rviz
+Displays:
+  - Class: rviz_default_plugins/Map
+    Name: Map
+    Topic: /map
+    Scheme: map
+
+  - Class: rviz_default_plugins/Path
+    Name: Global Plan
+    Topic: /plan
+    Color: 255; 0; 0
+    
+  - Class: rviz_default_plugins/Path
+    Name: Local Plan
+    Topic: /local_plan
+    Color: 0; 255; 0
+
+  - Class: rviz_default_plugins/RobotModel
+    Name: RobotModel
+    Robot Description: robot_description

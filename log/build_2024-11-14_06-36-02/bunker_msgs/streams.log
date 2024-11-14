@@ -1,0 +1,155 @@
+[0.030s] Invoking command in '/root/ros2_bunker_dev/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_bunker_dev/build/bunker_msgs -- -j8 -l8
+[0.101s] [  2%] Built target bunker_msgs__cpp
+[0.108s] [ 12%] Built target bunker_msgs__rosidl_generator_c
+[0.156s] [ 36%] Built target bunker_msgs__rosidl_typesupport_cpp
+[0.160s] [ 40%] Built target bunker_msgs__rosidl_typesupport_introspection_cpp
+[0.162s] [ 46%] Built target bunker_msgs__rosidl_typesupport_fastrtps_cpp
+[0.168s] [ 65%] Built target bunker_msgs__rosidl_typesupport_introspection_c
+[0.170s] [ 65%] Built target bunker_msgs__rosidl_typesupport_c
+[0.193s] [ 76%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c
+[0.215s] [ 76%] Built target bunker_msgs
+[0.232s] [ 78%] Built target bunker_msgs__py
+[0.263s] [ 87%] Built target bunker_msgs__python
+[0.287s] [ 95%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.288s] [ 95%] Built target bunker_msgs__rosidl_typesupport_c__pyext
+[0.288s] [100%] Built target bunker_msgs__rosidl_typesupport_introspection_c__pyext
+[0.307s] Invoked command in '/root/ros2_bunker_dev/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_bunker_dev/build/bunker_msgs -- -j8 -l8
+[0.368s] Invoking command in '/root/ros2_bunker_dev/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_bunker_dev/build/bunker_msgs
+[0.372s] -- Install configuration: ""
+[0.373s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/rosidl_interfaces/bunker_msgs
+[0.373s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.373s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.373s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.373s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_status.h
+[0.374s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_actuator_state.h
+[0.374s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.374s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.h
+[0.375s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__functions.c
+[0.375s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__functions.c
+[0.376s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__struct.h
+[0.376s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__functions.c
+[0.380s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__struct.h
+[0.380s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__functions.h
+[0.381s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__functions.h
+[0.381s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__functions.h
+[0.381s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.h
+[0.381s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.h
+[0.382s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__struct.h
+[0.382s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_rc_state.h
+[0.382s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/library_path.sh
+[0.383s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/library_path.dsv
+[0.384s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_c.so
+[0.385s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.385s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.386s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.386s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_c.h
+[0.386s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_c.h
+[0.386s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_c.h
+[0.388s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.388s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_c.so
+[0.389s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.390s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.390s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.390s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.391s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.391s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.392s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.393s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/dds_fastrtps
+[0.398s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.398s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.398s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.399s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.401s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_c.h
+[0.401s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_c.h
+[0.402s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.c
+[0.402s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.c
+[0.402s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.c
+[0.403s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_c.h
+[0.404s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.404s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_c.so
+[0.405s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_c.so
+[0.406s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.407s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.407s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_status.hpp
+[0.407s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.407s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__builder.hpp
+[0.408s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__traits.hpp
+[0.408s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__traits.hpp
+[0.408s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.hpp
+[0.408s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__builder.hpp
+[0.408s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__traits.hpp
+[0.409s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__builder.hpp
+[0.409s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.hpp
+[0.409s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__struct.hpp
+[0.409s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.hpp
+[0.410s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__struct.hpp
+[0.410s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__struct.hpp
+[0.410s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.410s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_rc_state.hpp
+[0.411s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_actuator_state.hpp
+[0.411s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs
+[0.411s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg
+[0.411s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail
+[0.412s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.cpp
+[0.412s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_cpp.hpp
+[0.412s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.cpp
+[0.412s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.cpp
+[0.413s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_cpp.hpp
+[0.413s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[0.414s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_cpp.so
+[0.414s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_cpp.so
+[0.415s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.sh
+[0.415s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.dsv
+[0.415s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/__init__.py
+[0.432s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg
+[0.436s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_status.py
+[0.436s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_actuator_state.py
+[0.436s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_rc_state.py
+[0.437s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/__init__.py
+[0.437s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_status_s.c
+[0.437s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_rc_state_s.c
+[0.437s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_actuator_state_s.c
+[0.438s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.442s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.442s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.444s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__python.so
+[0.446s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.idl
+[0.447s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.idl
+[0.447s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.idl
+[0.447s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.msg
+[0.447s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.msg
+[0.447s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.msg
+[0.449s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/package_run_dependencies/bunker_msgs
+[0.449s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/parent_prefix_path/bunker_msgs
+[0.449s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.sh
+[0.450s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.dsv
+[0.450s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/path.sh
+[0.450s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/path.dsv
+[0.452s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.bash
+[0.452s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.sh
+[0.453s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.zsh
+[0.453s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.dsv
+[0.453s] -- Installing: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/package.dsv
+[0.454s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/packages/bunker_msgs
+[0.455s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cExport.cmake
+[0.455s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.456s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.456s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport.cmake
+[0.457s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.457s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cppExport.cmake
+[0.461s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.461s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.464s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport.cmake
+[0.464s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.464s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake-extras.cmake
+[0.464s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.465s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.465s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.465s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.465s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.467s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.468s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig.cmake
+[0.469s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig-version.cmake
+[0.472s] -- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/package.xml
+[0.473s] Invoked command in '/root/ros2_bunker_dev/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_bunker_dev/build/bunker_msgs

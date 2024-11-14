@@ -1,0 +1,357 @@
+[0.000000] (-) TimerEvent: {}
+[0.001762] (bunker_msgs) JobQueued: {'identifier': 'bunker_msgs', 'dependencies': OrderedDict()}
+[0.002760] (custom_bunker_controller) JobQueued: {'identifier': 'custom_bunker_controller', 'dependencies': OrderedDict()}
+[0.002924] (rpa) JobQueued: {'identifier': 'rpa', 'dependencies': OrderedDict()}
+[0.003000] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.003061] (bunker_base) JobQueued: {'identifier': 'bunker_base', 'dependencies': OrderedDict([('bunker_msgs', '/root/ros2_bunker_dev/install/bunker_msgs'), ('ugv_sdk', '/root/ros2_bunker_dev/install/ugv_sdk')])}
+[0.005054] (bunker_msgs) JobStarted: {'identifier': 'bunker_msgs'}
+[0.009674] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.016269] (custom_bunker_controller) JobStarted: {'identifier': 'custom_bunker_controller'}
+[0.021909] (rpa) JobStarted: {'identifier': 'rpa'}
+[0.034017] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'cmake'}
+[0.035015] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'build'}
+[0.035679] (bunker_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_bunker_dev/build/bunker_msgs', '--', '-j8', '-l8'], 'cwd': '/root/ros2_bunker_dev/build/bunker_msgs', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/bunker_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.047027] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.047241] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.047677] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_bunker_dev/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/root/ros2_bunker_dev/build/ugv_sdk', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/ugv_sdk'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1')]), 'shell': False}
+[0.065596] (custom_bunker_controller) JobProgress: {'identifier': 'custom_bunker_controller', 'progress': 'cmake'}
+[0.066024] (custom_bunker_controller) JobProgress: {'identifier': 'custom_bunker_controller', 'progress': 'build'}
+[0.067283] (custom_bunker_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_bunker_dev/build/custom_bunker_controller', '--', '-j8', '-l8'], 'cwd': '/root/ros2_bunker_dev/build/custom_bunker_controller', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/custom_bunker_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100150] (-) TimerEvent: {}
+[0.186178] (bunker_msgs) StdoutLine: {'line': b'[  4%] Built target bunker_msgs__cpp\n'}
+[0.197398] (bunker_msgs) StdoutLine: {'line': b'[ 12%] Built target bunker_msgs__rosidl_generator_c\n'}
+[0.200401] (custom_bunker_controller) StdoutLine: {'line': b'[100%] Built target custom_controller\n'}
+[0.201828] (-) TimerEvent: {}
+[0.212687] (ugv_sdk) StdoutLine: {'line': b'[ 42%] Built target ugv_sdk\n'}
+[0.265334] (bunker_msgs) StdoutLine: {'line': b'[ 36%] Built target bunker_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.270364] (bunker_msgs) StdoutLine: {'line': b'[ 36%] Built target bunker_msgs__rosidl_typesupport_cpp\n'}
+[0.283265] (bunker_msgs) StdoutLine: {'line': b'[ 57%] Built target bunker_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.296764] (ugv_sdk) StdoutLine: {'line': b'[ 50%] Built target demo_bunker_robot\n'}
+[0.300565] (bunker_msgs) StdoutLine: {'line': b'[ 63%] Built target bunker_msgs__rosidl_typesupport_c\n'}
+[0.308699] (-) TimerEvent: {}
+[0.309199] (bunker_msgs) StdoutLine: {'line': b'[ 65%] Built target bunker_msgs__rosidl_typesupport_introspection_c\n'}
+[0.314753] (custom_bunker_controller) CommandEnded: {'returncode': 0}
+[0.319043] (ugv_sdk) StdoutLine: {'line': b'[ 57%] Built target demo_scout_mini_omni_robot\n'}
+[0.322525] (ugv_sdk) StdoutLine: {'line': b'[ 75%] Built target demo_protocol_detector\n'}
+[0.323979] (ugv_sdk) StdoutLine: {'line': b'[ 75%] Built target demo_ranger_robot\n'}
+[0.324839] (ugv_sdk) StdoutLine: {'line': b'[ 82%] Built target demo_tracer_robot\n'}
+[0.328368] (ugv_sdk) StdoutLine: {'line': b'[ 96%] Built target demo_hunter_robot\n'}
+[0.328805] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_scout_robot\n'}
+[0.329333] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_robot_version\n'}
+[0.336794] (custom_bunker_controller) JobProgress: {'identifier': 'custom_bunker_controller', 'progress': 'install'}
+[0.349038] (custom_bunker_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_bunker_dev/build/custom_bunker_controller'], 'cwd': '/root/ros2_bunker_dev/build/custom_bunker_controller', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/custom_bunker_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.353599] (bunker_msgs) StdoutLine: {'line': b'[ 76%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.363182] (custom_bunker_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.364533] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.368997] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/lib/custom_bunker_controller/custom_controller\n'}
+[0.370831] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/ament_index/resource_index/package_run_dependencies/custom_bunker_controller\n'}
+[0.372321] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/ament_index/resource_index/parent_prefix_path/custom_bunker_controller\n'}
+[0.373487] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/environment/ament_prefix_path.sh\n'}
+[0.374458] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/environment/ament_prefix_path.dsv\n'}
+[0.376028] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/environment/path.sh\n'}
+[0.377345] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/environment/path.dsv\n'}
+[0.378246] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/local_setup.bash\n'}
+[0.378751] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/local_setup.sh\n'}
+[0.379889] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/local_setup.zsh\n'}
+[0.380818] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/local_setup.dsv\n'}
+[0.381856] (custom_bunker_controller) StdoutLine: {'line': b'-- Installing: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/package.dsv\n'}
+[0.384126] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/ament_index/resource_index/packages/custom_bunker_controller\n'}
+[0.385450] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/cmake/custom_bunker_controllerConfig.cmake\n'}
+[0.386512] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/cmake/custom_bunker_controllerConfig-version.cmake\n'}
+[0.387259] (bunker_msgs) StdoutLine: {'line': b'[ 76%] Built target bunker_msgs\n'}
+[0.388434] (custom_bunker_controller) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/custom_bunker_controller/share/custom_bunker_controller/package.xml\n'}
+[0.390502] (custom_bunker_controller) CommandEnded: {'returncode': 0}
+[0.410110] (-) TimerEvent: {}
+[0.413357] (bunker_msgs) StdoutLine: {'line': b'[ 78%] Built target bunker_msgs__py\n'}
+[0.458786] (bunker_msgs) StdoutLine: {'line': b'[ 87%] Built target bunker_msgs__python\n'}
+[0.504989] (custom_bunker_controller) JobEnded: {'identifier': 'custom_bunker_controller', 'rc': 0}
+[0.509910] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'install'}
+[0.510409] (-) TimerEvent: {}
+[0.511416] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_bunker_dev/build/ugv_sdk'], 'cwd': '/root/ros2_bunker_dev/build/ugv_sdk', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/ugv_sdk'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1')]), 'shell': False}
+[0.513745] (bunker_msgs) StdoutLine: {'line': b'[ 91%] Built target bunker_msgs__rosidl_typesupport_c__pyext\n'}
+[0.514500] (bunker_msgs) StdoutLine: {'line': b'[100%] Built target bunker_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.515036] (bunker_msgs) StdoutLine: {'line': b'[100%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.516580] (ugv_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.517973] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/lib/libugv_sdk.a\n'}
+[0.518409] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk\n'}
+[0.518753] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details\n'}
+[0.519301] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface\n'}
+[0.519907] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp\n'}
+[0.520676] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp\n'}
+[0.522078] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp\n'}
+[0.522439] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp\n'}
+[0.523360] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp\n'}
+[0.524186] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp\n'}
+[0.524984] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h\n'}
+[0.526772] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h\n'}
+[0.528762] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp\n'}
+[0.529634] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp\n'}
+[0.530681] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v2\n'}
+[0.531350] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp\n'}
+[0.531910] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base\n'}
+[0.533654] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp\n'}
+[0.534282] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp\n'}
+[0.534671] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp\n'}
+[0.535068] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp\n'}
+[0.535548] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp\n'}
+[0.535849] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp\n'}
+[0.536315] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp\n'}
+[0.537054] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port\n'}
+[0.537590] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp\n'}
+[0.537977] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp\n'}
+[0.538503] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp\n'}
+[0.539422] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1\n'}
+[0.540041] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp\n'}
+[0.540539] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h\n'}
+[0.541137] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp\n'}
+[0.542557] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/utilities\n'}
+[0.543504] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp\n'}
+[0.544743] (bunker_msgs) CommandEnded: {'returncode': 0}
+[0.548474] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot\n'}
+[0.549262] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp\n'}
+[0.550981] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp\n'}
+[0.551514] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp\n'}
+[0.552147] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp\n'}
+[0.552615] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp\n'}
+[0.553241] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp\n'}
+[0.553900] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake\n'}
+[0.554567] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake\n'}
+[0.555033] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake\n'}
+[0.555416] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake\n'}
+[0.558384] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.568865] (rpa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rpa', 'build', '--build-base', '/root/ros2_bunker_dev/build/rpa/build', 'install', '--record', '/root/ros2_bunker_dev/build/rpa/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_bunker_dev/src/rpa', 'env': {'SUDO_GID': '0', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'SUDO_UID': '0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'PWD': '/root/ros2_bunker_dev/build/rpa', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_bunker_dev/build/rpa/prefix_override:/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.610745] (-) TimerEvent: {}
+[0.625904] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 0}
+[0.633828] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'install'}
+[0.634578] (bunker_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_bunker_dev/build/bunker_msgs'], 'cwd': '/root/ros2_bunker_dev/build/bunker_msgs', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/bunker_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.652008] (bunker_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.652761] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/rosidl_interfaces/bunker_msgs\n'}
+[0.653266] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.653787] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.654433] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.654832] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_status.h\n'}
+[0.655170] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_actuator_state.h\n'}
+[0.656205] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.657050] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.h\n'}
+[0.657294] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__functions.c\n'}
+[0.657571] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__functions.c\n'}
+[0.659538] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__struct.h\n'}
+[0.660139] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__functions.c\n'}
+[0.660571] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__struct.h\n'}
+[0.661403] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__functions.h\n'}
+[0.664036] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__functions.h\n'}
+[0.664832] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__functions.h\n'}
+[0.667161] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.h\n'}
+[0.668053] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.h\n'}
+[0.668507] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__struct.h\n'}
+[0.668973] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_rc_state.h\n'}
+[0.673019] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/library_path.sh\n'}
+[0.673266] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/library_path.dsv\n'}
+[0.675910] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_c.so\n'}
+[0.683358] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.684873] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.687393] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.688048] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.688392] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.688653] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.689019] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.690857] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.692244] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.692620] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.693294] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.693665] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.694561] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.694925] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.695077] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.696506] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/dds_fastrtps\n'}
+[0.697005] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.697408] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.697692] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.697895] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.698969] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_c.h\n'}
+[0.699421] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_c.h\n'}
+[0.699741] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.c\n'}
+[0.700120] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.c\n'}
+[0.700280] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.c\n'}
+[0.701954] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_c.h\n'}
+[0.702090] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.702439] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.702999] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_c.so\n'}
+[0.703663] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.704184] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.704654] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_status.hpp\n'}
+[0.704857] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.705279] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__builder.hpp\n'}
+[0.705492] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__traits.hpp\n'}
+[0.705719] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__traits.hpp\n'}
+[0.705907] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.hpp\n'}
+[0.706378] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__builder.hpp\n'}
+[0.706696] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__traits.hpp\n'}
+[0.706979] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__builder.hpp\n'}
+[0.707496] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.hpp\n'}
+[0.708110] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__struct.hpp\n'}
+[0.710875] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.hpp\n'}
+[0.712137] (-) TimerEvent: {}
+[0.712822] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__struct.hpp\n'}
+[0.713801] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__struct.hpp\n'}
+[0.714106] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.714452] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_rc_state.hpp\n'}
+[0.714779] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/bunker_actuator_state.hpp\n'}
+[0.714932] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs\n'}
+[0.715187] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg\n'}
+[0.715426] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail\n'}
+[0.715860] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__type_support.cpp\n'}
+[0.716235] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.716513] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__type_support.cpp\n'}
+[0.717563] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_status__type_support.cpp\n'}
+[0.717891] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.718016] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/include/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.718338] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.719014] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_cpp.so\n'}
+[0.719411] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.sh\n'}
+[0.719823] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.dsv\n'}
+[0.720280] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/__init__.py\n'}
+[0.722231] (rpa) StdoutLine: {'line': b'running egg_info\n'}
+[0.722794] (rpa) StdoutLine: {'line': b'writing ../../build/rpa/rpa.egg-info/PKG-INFO\n'}
+[0.723484] (rpa) StdoutLine: {'line': b'writing dependency_links to ../../build/rpa/rpa.egg-info/dependency_links.txt\n'}
+[0.724119] (rpa) StdoutLine: {'line': b'writing entry points to ../../build/rpa/rpa.egg-info/entry_points.txt\n'}
+[0.725399] (rpa) StdoutLine: {'line': b'writing requirements to ../../build/rpa/rpa.egg-info/requires.txt\n'}
+[0.725684] (rpa) StdoutLine: {'line': b'writing top-level names to ../../build/rpa/rpa.egg-info/top_level.txt\n'}
+[0.740806] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg\n'}
+[0.741377] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_status.py\n'}
+[0.741598] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_actuator_state.py\n'}
+[0.741782] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_rc_state.py\n'}
+[0.741961] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/__init__.py\n'}
+[0.742213] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_status_s.c\n'}
+[0.743091] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_rc_state_s.c\n'}
+[0.743240] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/msg/_bunker_actuator_state_s.c\n'}
+[0.745756] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.747022] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.750760] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.751323] (rpa) StdoutLine: {'line': b"reading manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'\n"}
+[0.751806] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/lib/libbunker_msgs__python.so\n'}
+[0.752780] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.idl\n'}
+[0.753282] (rpa) StdoutLine: {'line': b"writing manifest file '../../build/rpa/rpa.egg-info/SOURCES.txt'\n"}
+[0.753627] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.idl\n'}
+[0.754010] (rpa) StdoutLine: {'line': b'running build\n'}
+[0.755805] (rpa) StdoutLine: {'line': b'running build_py\n'}
+[0.756128] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.idl\n'}
+[0.756535] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.msg\n'}
+[0.757457] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.msg\n'}
+[0.758662] (rpa) StdoutLine: {'line': b'running install\n'}
+[0.758995] (rpa) StdoutLine: {'line': b'running install_lib\n'}
+[0.759462] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.msg\n'}
+[0.760653] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/package_run_dependencies/bunker_msgs\n'}
+[0.763132] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/parent_prefix_path/bunker_msgs\n'}
+[0.764215] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.sh\n'}
+[0.764868] (rpa) StdoutLine: {'line': b'running install_data\n'}
+[0.765520] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.dsv\n'}
+[0.765834] (rpa) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.766344] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/path.sh\n'}
+[0.766754] (rpa) StdoutLine: {'line': b"removing '/root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.767376] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/environment/path.dsv\n'}
+[0.768403] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.bash\n'}
+[0.770047] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.sh\n'}
+[0.770603] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.zsh\n'}
+[0.771197] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/local_setup.dsv\n'}
+[0.771657] (rpa) StdoutLine: {'line': b'Copying ../../build/rpa/rpa.egg-info to /root/ros2_bunker_dev/install/rpa/lib/python3.8/site-packages/rpa-0.0.0-py3.8.egg-info\n'}
+[0.772010] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/package.dsv\n'}
+[0.772617] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/ament_index/resource_index/packages/bunker_msgs\n'}
+[0.773150] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cExport.cmake\n'}
+[0.773579] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.774040] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.774470] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.774765] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.775085] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.775311] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.775646] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.775901] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.776197] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.777299] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.777648] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.778981] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.782890] (rpa) StdoutLine: {'line': b'running install_scripts\n'}
+[0.783421] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.783975] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.784159] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.784487] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.784965] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.786900] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig.cmake\n'}
+[0.787067] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig-version.cmake\n'}
+[0.787542] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/package.xml\n'}
+[0.789828] (bunker_msgs) CommandEnded: {'returncode': 0}
+[0.794021] (rpa) StdoutLine: {'line': b'Installing slam_processor script to /root/ros2_bunker_dev/install/rpa/lib/rpa\n'}
+[0.796211] (rpa) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_bunker_dev/build/rpa/install.log'\n"}
+[0.812733] (-) TimerEvent: {}
+[0.824700] (rpa) CommandEnded: {'returncode': 0}
+[0.836163] (rpa) JobEnded: {'identifier': 'rpa', 'rc': 0}
+[0.879615] (bunker_msgs) JobEnded: {'identifier': 'bunker_msgs', 'rc': 0}
+[0.884454] (bunker_base) JobStarted: {'identifier': 'bunker_base'}
+[0.893115] (bunker_base) JobProgress: {'identifier': 'bunker_base', 'progress': 'cmake'}
+[0.894287] (bunker_base) JobProgress: {'identifier': 'bunker_base', 'progress': 'build'}
+[0.896230] (bunker_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_bunker_dev/build/bunker_base', '--', '-j8', '-l8'], 'cwd': '/root/ros2_bunker_dev/build/bunker_base', 'env': OrderedDict([('SUDO_GID', '0'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('ROS_PACKAGE_PATH', '/root/ros2_bunker_dev/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_bunker_dev/install/bunker_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_bunker_dev/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_bunker_dev/install/ugv_sdk/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/root/ros2_bunker_dev/install/bunker_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'root'), ('PWD', '/root/ros2_bunker_dev/build/bunker_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_bunker_dev/install/bunker_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/root/ros2_bunker_dev/install/ugv_sdk:/root/ros2_bunker_dev/install/bunker_msgs')]), 'shell': False}
+[0.913941] (-) TimerEvent: {}
+[0.924753] (bunker_base) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.934952] (bunker_base) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.000193] (bunker_base) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.015562] (-) TimerEvent: {}
+[1.020163] (bunker_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.025340] (bunker_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.105214] (bunker_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.115774] (-) TimerEvent: {}
+[1.133309] (bunker_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.134431] (bunker_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.211703] (bunker_base) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.216658] (-) TimerEvent: {}
+[1.228990] (bunker_base) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.269939] (bunker_base) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.315253] (bunker_base) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.318188] (-) TimerEvent: {}
+[1.321171] (bunker_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.325396] (bunker_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.418741] (-) TimerEvent: {}
+[1.520747] (-) TimerEvent: {}
+[1.554469] (bunker_base) StdoutLine: {'line': b'-- Found bunker_msgs: 0.1.0 (/root/ros2_bunker_dev/install/bunker_msgs/share/bunker_msgs/cmake)\n'}
+[1.584536] (bunker_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.621724] (-) TimerEvent: {}
+[1.627119] (bunker_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.631613] (bunker_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.632071] (bunker_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_bunker_dev/src/bunker_ros2/bunker_base/include\n'}
+[1.632236] (bunker_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.635663] (bunker_base) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.635977] (bunker_base) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.636716] (bunker_base) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.637842] (bunker_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.638544] (bunker_base) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.642558] (bunker_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.642935] (bunker_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.643603] (bunker_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.648234] (bunker_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.672459] (bunker_base) StdoutLine: {'line': b'-- Generating done\n'}
+[1.678952] (bunker_base) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_bunker_dev/build/bunker_base\n'}
+[1.713520] (bunker_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bunker_base_node\x1b[0m\n'}
+[1.722682] (-) TimerEvent: {}
+[1.773169] (bunker_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_ros.cpp.o\x1b[0m\n'}
+[1.773680] (bunker_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_node.cpp.o\x1b[0m\n'}
+[1.823724] (-) TimerEvent: {}
+[1.924916] (-) TimerEvent: {}
+[1.945203] (bunker_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_bunker_dev/src/bunker_ros2/bunker_base/src/bunker_base_ros.cpp:12\x1b[m\x1b[K:\n'}
+[1.949049] (bunker_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_bunker_dev/src/bunker_ros2/bunker_base/include/bunker_base/bunker_messenger.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory\n'}
+[1.949326] (bunker_base) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>\x1b[m\x1b[K\n'}
+[1.949566] (bunker_base) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.949821] (bunker_base) StderrLine: {'line': b'compilation terminated.\n'}
+[1.950925] (bunker_base) StderrLine: {'line': b'make[2]: *** [CMakeFiles/bunker_base_node.dir/build.make:63: CMakeFiles/bunker_base_node.dir/src/bunker_base_ros.cpp.o] Error 1\n'}
+[1.951134] (bunker_base) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[2.025747] (-) TimerEvent: {}
+[2.136724] (-) TimerEvent: {}
+[2.241750] (-) TimerEvent: {}
+[2.348718] (-) TimerEvent: {}
+[2.456030] (-) TimerEvent: {}
+[2.562732] (-) TimerEvent: {}
+[2.669849] (-) TimerEvent: {}
+[2.770796] (-) TimerEvent: {}
+[2.772801] (bunker_base) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bunker_base_node.dir/all] Error 2\n'}
+[2.774895] (bunker_base) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.782351] (bunker_base) CommandEnded: {'returncode': 2}
+[2.812944] (bunker_base) JobEnded: {'identifier': 'bunker_base', 'rc': 2}
+[2.827137] (-) EventReactorShutdown: {}
